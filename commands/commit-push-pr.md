@@ -9,10 +9,10 @@ and the PR creation flow (AI/MCP vs CLI) should be customized per project.
 
 ## Preconditions
 
-- There are modified files.
+- Use the `/commit-message` skill to generate commit messages.
+- Use the `/pr-message` skill to generate PR titles and bodies.
 - The remote `origin` is configured.
 - GitHub CLI (`gh`) is installed (for the CLI fallback).
-- You are on a working branch (e.g. `feature/...`, `fix/...`).
 
 ## Steps (non-interactive)
 
@@ -163,12 +163,10 @@ git log origin/main..HEAD --oneline
 
 ## PR title and message rules
 
-- Detailed PR title and body format should follow `.cursor/rules/pr-message-format.mdc`.
-- This command assumes you write PR messages using the structured format defined in that rule (e.g. Overview / Changes / Tests).
+- The `/pr-message` skill generates PR titles and bodies in a structured format (e.g. Overview / Changes / Tests).
 
 ## Notes
 
-- Commit message formatting and generation principles should follow `.cursor/rules/commit-message-format.mdc`.
 - Always review diffs with `git status` and `git diff` before running this command.
 
 ## Troubleshooting

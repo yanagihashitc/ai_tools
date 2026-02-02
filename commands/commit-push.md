@@ -7,7 +7,7 @@ Branch policies (such as disallowing direct pushes to main/master) and pre-commi
 
 ## Preconditions
 
-- There are modified files.
+- Use the `/commit-message` skill to generate commit messages.
 - The remote `origin` is configured.
 
 ## Steps (non-interactive)
@@ -79,7 +79,6 @@ git push -u origin "$BRANCH"
 
 ## Notes
 
-- Commit message formatting and generation principles should follow `.cursor/rules/commit-message-format.mdc`.
 - Always review diffs with `git status` or `git diff` before executing this command.
 
 

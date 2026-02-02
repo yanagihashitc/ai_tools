@@ -1,0 +1,16 @@
+---
+description: Actively seek out and utilize relevant Skills for routine tasks
+alwaysApply: true
+---
+
+# Proactive Utilization of Skills and Subagents
+
+## Usage Distinction
+
+- **Skill**: For tasks requiring specialized knowledge, read the relevant SKILL.md file before starting work, and apply its procedures/restrictions as written—do not simply declare usage.
+
+※ If there is no relevant Skill for a small task, proceed with the standard workflow.
+
+## Explicit Usage
+
+Clearly state in one line which Skill you are using and the reason before proceeding.  
